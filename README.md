@@ -43,7 +43,7 @@ Root Mean Squared Error (RMSE): 4985.59619140625
 The most noteworthy is the Neural Network which can be used to help predict used car prices with an accuracy of R2 = 0.847 
 These models can help you make informed decisions about inventory and pricing.
 
- Key Findings
+# Key Findings
 High Accuracy: The Neural Network model has an 
 R2 score of 0.847, making it the best preformer in this metric.  It also outperforms all the other models in every other metric, having a lower MSE, MAE, and RMSE.
 
@@ -55,9 +55,10 @@ Drive (4WD): Cars with 4-wheel drive generally hold higher value.
 Transmission: A preference for automatic transmission affects car prices.
 Regional Impact: The value of a car appears to vary by region.
 
-Residuals Analysis: While the residuals are generally well-distributed, there is a small but noticeable linear downward line present, indicating that the models tend to overestimate car prices as they increase. This suggests there may be additional factors or non-linear relationships not yet accounted for.
+# Residuals Analysis: 
+While the residuals are generally well-distributed, there is a small but noticeable linear downward line present, indicating that the models tend to overestimate car prices as they increase. This suggests there may be additional factors or non-linear relationships not yet accounted for.
 
-Recommendations
+# Recommendations
 Further Analysis: Investigate other potential factors or features that may capture the nonlinear aspects of car pricing. These could include interaction terms, polynomial features, or other domain-specific variables.
 
 Segmentation: Consider building different models for different price ranges or car types to better capture these nuances.
